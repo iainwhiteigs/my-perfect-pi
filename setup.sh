@@ -30,3 +30,6 @@ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/
 
 #### Docker ####
 sudo apt -y install docker.io
+
+#### NodeRed ####
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
